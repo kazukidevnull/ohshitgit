@@ -17,7 +17,6 @@ git commit -m "din melding her";
 # nå er endringene dine på riktig gren
 ```
 
-A lot of people have suggested using `cherry-pick` for this situation too, so take your pick on whatever one makes the most sense to you!
 Mange folk har foreslått å bruke `cherry-pick` for denne situasjonen også, så velg det som gir mest mening for deg! 
 
 ```git
