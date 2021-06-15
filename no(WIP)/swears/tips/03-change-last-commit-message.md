@@ -1,6 +1,6 @@
 ---
-tags: tips
-title: Faen da, Jeg må endre meldingen på den siste bunten! 
+tags: tip
+title: Helvete da, Jeg må endre meldingen på den siste bunten! 
 id: endre-siste-bunt-melding
 order: 3
 ---

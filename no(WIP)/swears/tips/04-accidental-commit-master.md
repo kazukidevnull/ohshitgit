@@ -1,6 +1,6 @@
 ---
-tags: tips
-title: Faen da, Jeg bunted ved et uhell til master som skulle ha vært på en helt ny gren! 
+tags: tip
+title: Helvete da, Jeg bunted ved et uhell til master som skulle ha vært på en helt ny gren! 
 id: buntet-til-hovedgren-med-uhell
 order: 4
 ---

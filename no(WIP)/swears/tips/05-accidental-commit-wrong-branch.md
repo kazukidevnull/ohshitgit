@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Faen da, Jeg buntet til feil gren med et uhell
+title: Helvete da, Jeg buntet til feil gren med et uhell
 id: uheldigvis-buntet-feil-gren
 order: 5
 ---

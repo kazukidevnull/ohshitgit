@@ -1,21 +1,21 @@
 ---
 tags: tip
-title: Dangit, I need to undo a commit from like 5 commits ago!
-id: undo-a-commit
+title: pokker, Jeg må angre en bunt fra for 5 bunter tilbake! 
+id: angre-en-bunt
 order: 7
 ---
 
 ```git
-# find the commit you need to undo
+# finn bunten du ønsker å angre
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
-git revert [saved hash]
-# git will create a new commit that undoes that commit
-# follow prompts to edit the commit message 
-# or just save and commit
+# bruk piltastene for å bla opp og ned i historikken 
+# Når du har funnet bunten, lagrer du bunt hash'en 
+git revert [lim in bunt hash'en]
+# git will create a new commit that undoes that commit git vil opprette en ny bunt som angrer den bunten
+# følg instruksjonene for å redigere bunt meldingen 
+# eller bare lagre og bunt
 ```
 
-Turns out you don't have to track down and copy-paste the old file contents into the existing file in order to undo changes! If you committed a bug, you can undo the commit all in one go with `revert`.
+Det viser seg at du ikke trenger å spore og kopiere og lime inn det gamle filinnholdet i den eksisterende filen for å angre endringene! Hvis du har begått en feil, kan du angre bunten alt på en gang med `revert`. 
 
-You can also revert a single file instead of a full commit! But of course, in true git fashion, it's a completely different set of commands...
+Du kan også tilbakestille en enkelt fil i stedet for hele bunten! Men selvfølgelig, på ekte git-måte, er det et helt annet sett med kommander...

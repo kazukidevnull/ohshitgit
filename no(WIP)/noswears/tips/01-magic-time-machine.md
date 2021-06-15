@@ -1,6 +1,6 @@
 ---
 tags: tips
-title: pokker da, jeg gjorde noe veldig galt, fortell meg git har en magisk tidsmaskin!?! 
+title: pokker, jeg gjorde noe veldig galt, fortell meg git har en magisk tidsmaskin!?! 
 id: magisk tidsmaskin 
 order: 1
 ---

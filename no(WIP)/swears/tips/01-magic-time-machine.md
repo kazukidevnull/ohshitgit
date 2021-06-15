@@ -1,6 +1,6 @@
 ---
-tags: tips
-title: Faen da, jeg gjorde noe veldig galt, fortell meg git har en magisk tidsmaskin!?! 
+tags: tip
+title: Helvete da, jeg gjorde noe veldig galt, fortell meg git har en magisk tidsmaskin!?! 
 id: magisk tidsmaskin 
 order: 1
 ---

@@ -1,29 +1,29 @@
 ---
 tags: tip
-title: Dangit, I accidentally committed to the wrong branch!
-id: accidental-commit-wrong-branch
+title: pokker, Jeg buntet til feil gren med et uhell
+id: uheldigvis-buntet-feil-gren
 order: 5
 ---
 
 ```git
-# undo the last commit, but leave the changes available
+# angre den siste bunt, men la endringene være tilgjengelig
 git reset HEAD~ --soft
 git stash
-# move to the correct branch
-git checkout name-of-the-correct-branch
+# flytt til riktig gren
+git checkout navn-på-riktig-gren 
 git stash pop
-git add . # or add individual files
-git commit -m "your message here"
-# now your changes are on the correct branch
+git add . # eller legg til individuelle filer 
+git commit -m "din melding her";
+# nå er endringene dine på riktig gren
 ```
 
-A lot of people have suggested using `cherry-pick` for this situation too, so take your pick on whatever one makes the most sense to you!
+Mange folk har foreslått å bruke `cherry-pick` for denne situasjonen også, så velg det som gir mest mening for deg! 
 
 ```git
-git checkout name-of-the-correct-branch
-# grab the last commit to master
+git checkout navn-på-riktig-gren 
+# hent den siste bunt til hovedgren
 git cherry-pick master
-# delete it from master
+# slett den fra hovedgren
 git checkout master
 git reset HEAD~ --hard
 ```

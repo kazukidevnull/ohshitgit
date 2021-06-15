@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Dangit, I need to undo my changes to a file!
-id: undo-a-file
+title: pokker, Jeg må angre endringene mine i en fil! 
+id: angre-en-fil
 order: 8
 ---
 
 ```git
-# find a hash for a commit before the file was changed
+# finn en hash for en bunt før filen ble endret 
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
-git checkout [saved hash] -- path/to/file
-# the old version of the file will be in your index
-git commit -m "Wow, you don't have to copy-paste to undo"
+# bruk piltastene for å bla opp og ned i historikken 
+# Når du har funnet bunten, lagrer du hash'en 
+git checkout [lagret hash] -- sti/til/fil
+# den gamle versjonen av filen vil være i indeksen din 
+git commit -m "Utrolig, du trenger ikke å kopiere og lime inn for å angre"
 ```
 
-When I finally figured this out it was HUGE. HUGE. H-U-G-E. But seriously though, on what planet does `checkout --` make sense as the best way to undo a file? :shakes-fist-at-linus-torvalds:
+Da jeg endelig skjønte dette, var det ENORMT. ENORMT. E-N-O-R-M-T. Men alvorlig talt, på hvilken planet er det `checkout --` som den beste måten å angre en fil på? :hever-neven-mot-linus-torvalds: 

@@ -1,12 +1,12 @@
 ---
 tags: tip
-title: Dangit, I need to change the message on my last commit!
-id: change-last-commit-message
+title: Pokker, Jeg må endre meldingen på den siste bunten! 
+id: endre-siste-bunt-melding
 order: 3
 ---
 ```git
 git commit --amend
-# follow prompts to change the commit message
+# følg instruksjonene for å endre siste bunt meldingen
 ```
 
-Stupid commit message formatting requirements.
+Idiotiske krav til formatering av bunt meldinger. 

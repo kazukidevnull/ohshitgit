@@ -1,29 +1,29 @@
 ---
 tags: tip
-title: Fuck this noise, I give up.
-id: fuck-this-noise
-note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
+title: helvete med dette støyet, jeg gir opp. 
+id: helvete-med-dette-støyet
+notat: dette skal alltid være den siste i listen, så satt rekkefølgen til 20 slik at jeg ikke trenger å endre navn/rekkefølgen på den
 order: 20
 ---
 
 ```git
 cd ..
-sudo rm -r fucking-git-repo-dir
-git clone https://some.github.url/fucking-git-repo-dir.git
-cd fucking-git-repo-dir
+sudo rm -r faen-git-repo-mappen
+git clone https://noen.github.url/faen-git-repo-mappen.git
+cd faen-git-repo-mappen
 ```
 
-Thanks to Eric V. for this one. All complaints about the use of `sudo` in this joke can be directed to him. 
+Takk til Eric V. for denne. Alle klager på bruken av `sudo` i denne vitsen kan rettes til ham. 
 
 
-For real though, if your branch is sooo borked that you need to reset the state of your repo to be the same as the remote repo in a "git-approved" way, try this, but beware these are destructive and unrecoverable actions!
+Men seriøst, hvis din gren er sååå på tryne at du trenger å tilbakestille tilstanden i mappen din for å være den samme som den eksterne mappen på en "git-godkjent" måte, prøv dette, men pass på at dette er destruktive og uopprettelige handlinger! 
 
 ```git
-# get the lastest state of origin
+# få den siste opprinnelsetilstanden
 git fetch origin
 git checkout master
 git reset --hard origin/master
-# delete untracked files and directories
+# slett usporete filer og mapper 
 git clean -d --force
-# repeat checkout/reset/clean for each borked branch
+# gjenta "checkout/reset/clean" for hver gren som er på tryne
 ```

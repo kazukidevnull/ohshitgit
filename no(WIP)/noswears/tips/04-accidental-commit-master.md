@@ -1,17 +1,19 @@
 ---
 tags: tip
-title: Dangit, I accidentally committed something to master that should have been on a brand new branch!
-id: accidental-commit-master
+title: pokker, Jeg bunted ved et uhell til master som skulle ha vært på en helt ny gren! 
+id: buntet-til-hovedgren-med-uhell
 order: 4
 ---
 
 ```git
-# create a new branch from the current state of master
+# opprette en ny gren fra gjeldende tilstand av hovedgrenen 
 git branch some-new-branch-name
-# remove the last commit from the master branch
+# fjern siste bunt fra hovedgrenen 
 git reset HEAD~ --hard
 git checkout some-new-branch-name
-# your commit lives in this branch now :)
+# din bunt lever no i denne gren :)
 ```
 
-Note: this doesn't work if you've already pushed the commit to a public/shared branch, and if you tried other things first, you might need to `git reset HEAD@{number-of-commits-back}` instead of `HEAD~`. Infinite sadness. Also, many many many people suggested an awesome way to make this shorter that I didn't know myself. Thank you all!
+Merk: dette fungerer ikke hvis du allerede har dyttet bunten til en offentlig/delt gren, og hvis du først har prøvd andre ting, må du kanskje `git reset HEAD@ {nummer av bunter bak` i stedet av `HEAD ~`. Uendelig tristhet. Også, mange mange mange mennesker foreslo en fantastisk måte å gjøre dette kortere som jeg ikke kjente selv. Takk alle sammen!
+
+
